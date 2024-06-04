@@ -1,0 +1,42 @@
+# Compilação do .NET
+bin/
+obj/
+
+# Pastas do VS Code
+.vscode/
+
+# Dependências do NuGet
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+
+# Logs, Relatórios de erro e Diretorios de teste VS
+TestResults/
+*.log
+*.vs/
+.vs/
+.vscode/
+
+# IDEs e Editores
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Sistema de arquivos de Mac
+.DS_Store
+
+# Arquivos temporários
+*.tmp
+*.temp
+
+# Arquivos de lock
+project.lock.json
+project.fragment.lock.json
+
+# Arquivos de configuração
+appsettings.json
+appsettings.Development.json
+appsettings.Production.json
